@@ -1,0 +1,30 @@
+2020-07-31 00:07:49,250 INFO B.MainPage [main] Test started LoginTest_CorrectCredentials_LoggedToBareburger
+2020-07-31 00:07:49,294 INFO B.LoginPage [main] test started
+2020-07-31 00:07:50,111 TRACE B.LoginPage [main] email entered
+2020-07-31 00:07:50,218 TRACE B.LoginPage [main] password entered
+2020-07-31 00:07:50,286 INFO B.LoginPage [main] login button clicked
+2020-07-31 00:07:50,352 INFO B.MainPage [main] Hooray! Test passed LoginTest_CorrectCredentials_LoggedToBareburger
+2020-07-31 12:51:23,403 INFO B.MainPage [main] Test started LoginTest_CorrectCredentials_LoggedToBareburger
+2020-07-31 12:51:23,454 INFO B.LoginPage [main] test started
+2020-07-31 12:51:23,789 TRACE B.LoginPage [main] email entered
+2020-07-31 12:51:23,867 TRACE B.LoginPage [main] password entered
+2020-07-31 12:51:23,928 INFO B.LoginPage [main] login button clicked
+2020-07-31 12:51:23,993 INFO B.MainPage [main] Hooray! Test passed LoginTest_CorrectCredentials_LoggedToBareburger
+2020-07-31 12:51:27,337 INFO B.MainPage [main] Test started LoginTest_WrongPassword_LoggedToBareburger
+2020-07-31 12:51:27,337 INFO B.LoginPage [main] test started
+2020-07-31 12:51:27,803 TRACE B.LoginPage [main] email entered
+2020-07-31 12:51:27,883 TRACE B.LoginPage [main] password entered
+2020-07-31 12:51:27,944 INFO B.LoginPage [main] login button clicked
+2020-07-31 12:51:27,957 INFO B.MainPage [main] Hooray! Test passed LoginTest_WrongPassword_LoggedToBareburger
+2020-07-31 14:50:08,646 INFO B.MainPage [main] Test started LoginTest_CorrectCredentials_LoggedToBareburger
+2020-07-31 14:50:08,726 INFO B.LoginPage [main] test started
+2020-07-31 14:50:09,253 TRACE B.LoginPage [main] email entered
+2020-07-31 14:50:09,350 TRACE B.LoginPage [main] password entered
+2020-07-31 14:50:09,433 INFO B.LoginPage [main] login button clicked
+2020-07-31 14:50:09,537 INFO B.MainPage [main] Hooray! Test passed LoginTest_CorrectCredentials_LoggedToBareburger
+2020-07-31 14:50:17,470 INFO B.MainPage [main] Test started LoginTest_WrongPassword_LoggedToBareburger
+2020-07-31 14:50:17,476 INFO B.LoginPage [main] test started
+2020-07-31 14:50:17,935 TRACE B.LoginPage [main] email entered
+2020-07-31 14:50:18,026 TRACE B.LoginPage [main] password entered
+2020-07-31 14:50:18,141 INFO B.LoginPage [main] login button clicked
+2020-07-31 14:50:18,155 INFO B.MainPage [main] Hooray! Test passed LoginTest_WrongPassword_LoggedToBareburger

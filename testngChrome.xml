@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Master Suite"> <!-- parallel="classes" thread-count="4" verbose="1"> -->
+    <listeners>
+        <listener class-name="BBlisteners.Listeners"></listener>
+    </listeners>
+    <parameter name="email" value="thirsteacafe+test@gmail.com"/>
+    <parameter name="password" value="Lunchbox123"/>
+    <parameter name="wrong_password" value="12345678"></parameter>
+    <parameter name="browser" value="CHROME" />
+    <test name="All Tests">
+        <classes>
+            <class name="BBTests.LoginTest">
+                <methods>
+                    <include name="LoginTest_CorrectCredentials_LoggedToBareburger" />
+                    <include name="LoginTest_WrongPassword_LoggedToBareburger" />
+                </methods>
+            </class>
+            <class name="BBTests.OrderPickupTest">
+                <methods>
+                    <exclude name="addSpecialsToCart" />
+                    <exclude name="addAlcoholToCart" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
