@@ -1,10 +1,13 @@
-package BareburgerPageObjects;
+package BBPageObjects;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class MainPage extends BasePage {
 
+    private static Logger logger = LogManager.getLogger(MainPage.class);
     // Constructor initializing WebDriver as parameter
     public MainPage(WebDriver driver) {
         super(driver);

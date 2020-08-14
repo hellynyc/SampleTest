@@ -1,7 +1,7 @@
-package Bareburger;
+package BBTests;
 
-import BareburgerPageObjects.LoginPage;
-import BareburgerPageObjects.MainPage;
+import BBPageObjects.LoginPage;
+import BBPageObjects.MainPage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
